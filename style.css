@@ -15,7 +15,7 @@ body {
 
     position: absolute;
     width: 100%;
-    height: 95%;
+    height: 100%;
     background-image: url("img/cabania.jpg");
 
     background-size: cover;
@@ -73,4 +73,44 @@ body {
     background-color: rgba(163, 147, 191, 0.6);
     color: white;
     transform: scale(1.08);
+}
+
+
+
+
+/* seccion donde */
+
+#donde 
+{
+    height: 100%;
+    background-color: brown;
+    padding: 40px ;
+    text-align: center;
+    
+}
+
+.imagen-donde
+{
+    height: 90%;
+    width: 100%;
+}
+
+
+
+/* cabañas */
+
+#cabania
+{
+    padding: 40px;
+    background-color: beige;
+    text-align: center;
+}
+
+.card-text
+{
+    font-size: 1.1rem;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
 }
