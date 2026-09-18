@@ -111,6 +111,33 @@ body {
     font-size: 1.1rem;
     font-weight: 400;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
 
+
+}
+
+/* contacto */
+
+#contacto
+{
+    height: 100%;
+    padding: 50px;
+    text-align: center;
+    background-color: #d1f2f7;
+}
+
+form
+{
+        background-color: aquamarine;
+height: 100%;
+padding: 30px;
+border-radius: 15px;
+border: 1px solid black;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.video
+{
+    height: 100%;
+    width: 100%;
 }
