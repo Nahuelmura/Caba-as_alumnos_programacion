@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar fixed-top navbar-dark bg-dark bg-opacity-50  navbar-expand-lg ">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Cabañas del mar </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -18,15 +18,15 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">¿Donde estamos?</a>
+                        <a class="nav-link" href="#donde">¿Donde estamos?</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Cabañas</a>
+                        <a class="nav-link" href="#cabania">Cabañas</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link " href="">Contacto</a>
@@ -45,46 +45,62 @@
         <div class="fondo-opaco"></div>
 
         <div class="contenido-inicio">
-            <h1 class="titulo-principal">Cabañas del mar </h1>
-            <h2 class="subtitulo"> Disfruta del paseo</h2>
-            <button class="btn, boton"> Conoce mas</button>
-        </div>
+            <h1 class="titulo-principal display-3 fw-bold">Cabañas del mar </h1>
+            <h2 class="subtitulo fw-light "> Disfruta del paseo</h2>
+            <div>
+                <button class="btn btn-light  btn-lg rounded-pill shadow"> Conoce mas</button>
+                <button class="btn btn-outline-light  btn-lg rounded-pill shadow"> Contacto</button>
+            </div>
 
 
     </section>
 
     <!-- donde -->
 
-    <section id="donde">
-
+    <section id="donde" class="s">
         <div class="container">
-
             <div class="row">
-
                 <!-- columna izquieda -->
-                <div class="col-md-6">
+                <div class="col-md-6 g-4">
 
-                    <h2> ¿Donde estamos?</h2>
-
-
-
-                    <p> Lorem ipsuam perferendis provident Lorem ipsuam perferendis providentLorem ipsuam perferendis
-                        providentLorem ipsuam perferendis provident </p>
-
-                    <p> Lorem ipsuam perferendis provident Lorem ipsuam perferendis providentLorem ipsuam perferendis
-                        providentLorem ipsuam
-                        perferendis provident </p>
-
-                    <p> Lorem ipsuam perferendis provident Lorem ipsuam perferendis providentLorem ipsuam perferendis
-                        providentLorem ipsuam
-                        perferendis provident </p>
+                    <h2 class="subtitulo"> ¿Donde estamos?</h2>
+                    <p class="texto-donde"> Nos encontramos en un entorno natural privilegiado, rodeados de paz y tranquilidad, ideales para despejarse de la rutina
+                    y conectar con la naturaleza. </p>
+                    <p class="texto-donde"> Estamos ubicados a pocos minutos de la playa, con fácil acceso y caminos consolidados para que tu llegada sea cómoda en
+                    cualquier época del año. </p>
+                    <p class="texto-donde">Disfruta de la cercanía a los principales puntos de interés turístico sin perder la privacidad y el descanso que te
+                    mereces.</p>
                 </div>
 
-
                 <div class="col-md-6">
 
+                    <div id="carouselExampleFade" class="carousel slide carousel-fade shadow rounded overflow-hidden">
+                        <div class="carousel-inner carousel-altura">
+                            <div class="carousel-item active h-100">
+                                <img src="img/cabaña3.jpg " class="d-block w-100  h-100 objet-fit-cover" alt="cabaña 3">
+                            </div>
+                            <div class="carousel-item h-100">
+                                <img src="img/cabaña2.jpg" class="d-block w-100 h-100 objet-fit-cover" alt="cabaña 2">
+                            </div>
+                            <div class="carousel-item h-100">
+                                <img src="img/cabania.jpg" class="d-block w-100 h-100 objet-fit-cover" alt="cabaña 1">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
 
-                    <img src="img/cabania.jpg" class="imagen-donde" alt="Cabaña madera">
+
+
+
                 </div>
 
             </div>
@@ -100,12 +116,12 @@
     <section id="cabania">
 
         <div class="container">
-       
+
             <div class="row">
                 <div class="col-md-6 mb-4">
 
                     <div class="card  h-100" ">
-                        <img src="img/cabania.jpg" class="card-img-top" alt="...">
+                        <img src=" img/cabania.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <span>4 personas</span>
                             <span>Mascotas</span>
@@ -116,16 +132,12 @@
                             <a href="#" class="btn btn-primary">Contacto</a>
                         </div>
                     </div>
-
-                    
-
-
                 </div>
 
 
 
                 <div class="col-md-6 mb-4">
-                
+
                     <div class="card  h-100" ">
                                         <img src=" img/cabania.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -138,15 +150,14 @@
                             <a href="#" class="btn btn-primary">Contacto</a>
                         </div>
                     </div>
-                
-                
-                
-                
+
+
+
+
                 </div>
 
-
                 <div class="col-md-6 ">
-                
+
                     <div class="card  h-100" ">
                                                         <img src=" img/cabania.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -159,17 +170,14 @@
                             <a href="#" class="btn btn-primary">Contacto</a>
                         </div>
                     </div>
-                
-                
-                
-                
                 </div>
 
 
                 <div class="col-md-6 ">
-                
+
                     <div class="card  h-100" ">
-                                                                        <img src=" img/cabania.jpg" class="card-img-top" alt="...">
+                                                                        <img src=" img/cabania.jpg"
+                        class="card-img-top" alt="...">
                         <div class="card-body">
                             <span>4 personas</span>
                             <span>Mascotas</span>
@@ -180,26 +188,20 @@
                             <a href="#" class="btn btn-primary">Contacto</a>
                         </div>
                     </div>
-                
-                
-                
-                
                 </div>
 
 
-                
 
 
-                
+
+
 
             </div>
-
-
     </section>
 
-<!-- contacto -->
+    <!-- contacto -->
 
-    <section id="contacto" >
+    <section id="contacto">
 
         <div class="container">
             <div class="row">
@@ -207,45 +209,45 @@
 
 
                     <div class="caja-formulario">
-                    <h2 class="">Contactenos</h2>
-                    <div class="formulario">
-                        <form action="">
+                        <h2 class="">Contactenos</h2>
+                        <div class="formulario">
+                            <form action="">
 
-                            <div class="mb-4">
-                                <label for="" >Nombre</label>
-                                <input type="text"  class="form-control" placeholder="Ingrese Nombre">
-                            </div>
+                                <div class="mb-4">
+                                    <label for="">Nombre</label>
+                                    <input type="text" class="form-control" placeholder="Ingrese Nombre">
+                                </div>
 
-                            <div class="mb-4">
-                                <label for="" class="form-label">Apellido</label>
-                                <input type="text"   class="form-control" placeholder="Ingrese Apellido">
-                            </div>
+                                <div class="mb-4">
+                                    <label for="" class="form-label">Apellido</label>
+                                    <input type="text" class="form-control" placeholder="Ingrese Apellido">
+                                </div>
 
-                            <div class="mb-4">
-                                <label for="" >Emal</label>
-                                <input type="text"  class="form-control" placeholder="Ingrese Emal">
-                            </div>
+                                <div class="mb-4">
+                                    <label for="">Emal</label>
+                                    <input type="text" class="form-control" placeholder="Ingrese Emal">
+                                </div>
 
-                            <div class="mb-4">
-                                <label for="">Mesaje</label>
-                                <textarea class="form-control" name="" id=""></textarea>
-                              
-                            </div>
+                                <div class="mb-4">
+                                    <label for="">Mesaje</label>
+                                    <textarea class="form-control" name="" id=""></textarea>
 
-                            <button class="btn btn-success">Enviar</button>
-                            
+                                </div>
 
+                                <button class="btn btn-success">Enviar</button>
 
 
-                        </form>
 
+
+                            </form>
+
+                        </div>
                     </div>
-                </div>
                 </div>
 
                 <div class="col-md-6">
-                <iframe class="video" src="https://www.youtube.com/embed/NqSPz00cHH0?si=dOGDYrJrAmv-2qzd"
-                     allowfullscreen></iframe>
+                    <iframe class="video" src="https://www.youtube.com/embed/NqSPz00cHH0?si=dOGDYrJrAmv-2qzd"
+                        allowfullscreen></iframe>
                 </div>
 
             </div>
@@ -254,7 +256,7 @@
 
     </section>
 
-    
+
     <footer>
 
         <p>© 2023 Mi Sitio Web</p>

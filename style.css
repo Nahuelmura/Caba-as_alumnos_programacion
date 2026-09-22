@@ -7,7 +7,7 @@ body {
 .seccion-inicio {
     position: relative;
     width: 100%;
-    height: 98vh;
+    height: 100vh;
     overflow: hidden;
 }
 
@@ -16,7 +16,7 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-image: url("img/cabania.jpg");
+    background-image: url("img/Cabaña1.jpg");
 
     background-size: cover;
     background-position: center;
@@ -28,8 +28,8 @@ body {
 .fondo-opaco {
     position: absolute;
     width: 100%;
-    height: 95%;
-    background-color: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
 
     z-index: 1;
 }
@@ -80,34 +80,47 @@ body {
 
 /* seccion donde */
 
-#donde 
-{
+#donde {
     height: 100%;
-    background-color: brown;
-    padding: 40px ;
+    background-color: #2AD170;
+    padding: 80px;
     text-align: center;
-    
+
 }
 
-.imagen-donde
-{
-    height: 90%;
-    width: 100%;
+.subtitulo {
+    font-weight: bold;
+    color: black;
+    line-height: 1.8;
+    letter-spacing: 0.5px;
+
+}
+
+.texto-donde {
+    font-size: 1.1rem;
+    font-weight: 600;
+
+    line-height: 1.8;
+    letter-spacing: 0.5px;
+
+    color: black;
+}
+
+.carousel-altura {
+    height: 500px;
 }
 
 
 
 /* cabañas */
 
-#cabania
-{
+#cabania {
     padding: 40px;
     background-color: beige;
     text-align: center;
 }
 
-.card-text
-{
+.card-text {
     font-size: 1.1rem;
     font-weight: 400;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -117,38 +130,33 @@ body {
 
 /* contacto */
 
-#contacto
-{
+#contacto {
     height: 100%;
     padding: 50px;
     text-align: center;
     background-color: #d1f2f7;
 }
 
-form
-{
-        background-color: aquamarine;
-height: 100%;
-padding: 30px;
-border-radius: 15px;
-border: 1px solid black;
-box-shadow: 0 4px 8px 2px rgba(22, 22, 22, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+form {
+    background-color: aquamarine;
+    height: 100%;
+    padding: 30px;
+    border-radius: 15px;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px 2px rgba(22, 22, 22, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 
-.video
-{
+.video {
     height: 100%;
     width: 100%;
 }
 
-footer
-{
+footer {
     align-self: center;
     text-align: center;
     height: 100%;
     background-color: #f8efe7;
     padding: 40px;
-    
-}
 
+}
