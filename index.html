@@ -7,10 +7,11 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="bibliotecas/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bibliotecas/fontawesom/fontawesome-free-7.3.1-web/css/all.min.css">
 </head>
 
 <body>
-    <nav class="navbar fixed-top navbar-dark bg-dark bg-opacity-50  navbar-expand-lg ">
+    <nav class="navbar  fixed-top navbar-dark bg-dark bg-opacity-50  navbar-expand-lg ">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Cabañas del mar </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -20,16 +21,17 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        <a class="nav-link active" aria-current="page" href="#"> <i class="fa-regular fa-house"></i>
+                            Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#donde">¿Donde estamos?</a>
+                        <a class="nav-link" href="#donde"> <i class="fa-solid fa-location-dot"></i> ¿Donde estamos?</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#cabania">Cabañas</a>
+                        <a class="nav-link" href="#cabania"> <i class="fa-solid fa-people-roof"></i> Cabañas</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="">Contacto</a>
+                        <a class="nav-link " href=""> <i class="fa-solid fa-phone"></i> Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -46,7 +48,7 @@
 
         <div class="contenido-inicio">
             <h1 class="titulo-principal display-3 fw-bold">Cabañas del mar </h1>
-            <h2 class="subtitulo fw-light "> Disfruta del paseo</h2>
+            <h2 class="subtitulo fw-light "> Disfruta del paseo y la naturaleza</h2>
             <div>
                 <button class="btn btn-light  btn-lg rounded-pill shadow"> Conoce mas</button>
                 <button class="btn btn-outline-light  btn-lg rounded-pill shadow"> Contacto</button>
@@ -64,12 +66,15 @@
                 <div class="col-md-6 g-4">
 
                     <h2 class="subtitulo"> ¿Donde estamos?</h2>
-                    <p class="texto-donde"> Nos encontramos en un entorno natural privilegiado, rodeados de paz y tranquilidad, ideales para despejarse de la rutina
-                    y conectar con la naturaleza. </p>
-                    <p class="texto-donde"> Estamos ubicados a pocos minutos de la playa, con fácil acceso y caminos consolidados para que tu llegada sea cómoda en
-                    cualquier época del año. </p>
-                    <p class="texto-donde">Disfruta de la cercanía a los principales puntos de interés turístico sin perder la privacidad y el descanso que te
-                    mereces.</p>
+                    <p class="texto-donde"> Nos encontramos en un entorno natural privilegiado, rodeados de paz y
+                        tranquilidad, ideales para despejarse de la rutina
+                        y conectar con la naturaleza. </p>
+                    <p class="texto-donde"> Estamos ubicados a pocos minutos de la playa, con fácil acceso y caminos
+                        consolidados para que tu llegada sea cómoda en
+                        cualquier época del año. </p>
+                    <p class="texto-donde">Disfruta de la cercanía a los principales puntos de interés turístico sin
+                        perder la privacidad y el descanso que te
+                        mereces.</p>
                 </div>
 
                 <div class="col-md-6">
@@ -115,80 +120,94 @@
     <!-- cabañas -->
     <section id="cabania">
 
-        <div class="container">
+        <div class="container-fluid">
+
+            <h2 class="titulo-cabaña"> Nuestras cabañas</h2>
 
             <div class="row">
-                <div class="col-md-6 mb-4">
+                <div class="col-md-3 ">
 
-                    <div class="card  h-100" ">
-                        <img src=" img/cabania.jpg" class="card-img-top" alt="...">
+                    <div class="card " ">
+                        <img src=" img/cabania.jpg" class=" card-img card-img-top" alt="...">
                         <div class="card-body">
-                            <span>4 personas</span>
-                            <span>Mascotas</span>
-                            <h5 class="card-title">Cabaña Del norte</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card’s
-                                content.</p>
+                            <div>
+                                <span> <i class="fa-solid fa-user-group"></i> 4 personas</span>
+                                <span> <i class="fa-solid fa-paw"></i> Mascotas</span>
+                                <span> <i class="fa-solid fa-paw"></i> wifi</span>
+                            </div>
+
+                            <h5 class="card-titulo">CABAÑA DEL NORTE</h5>
+                            <p class="card-texto">Te esperamos en este mágico lugar rodeado de bosque, ideal para descansar y desconectarte. Las cabañas están ubicadas
+                            sobre calle Fernández, una calle sin salida, muy tranquila, ideal para descansa.</p>
                             <a href="#" class="btn btn-primary">Contacto</a>
                         </div>
                     </div>
                 </div>
 
-
-
-                <div class="col-md-6 mb-4">
-
-                    <div class="card  h-100" ">
-                                        <img src=" img/cabania.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <span>4 personas</span>
-                            <span>Mascotas</span>
-                            <h5 class="card-title">Cabaña Del norte</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card’s
-                                content.</p>
-                            <a href="#" class="btn btn-primary">Contacto</a>
+                    <div class="col-md-3 mb-4">
+                    
+                        <div class="card  h-100" ">
+                                            <img src=" img/cabania.jpg" class=" card-img card-img-top" alt="...">
+                            <div class="card-body">
+                                <div>
+                                    <span> <i class="fa-solid fa-user-group"></i> 4 personas</span>
+                                    <span> <i class="fa-solid fa-paw"></i> Mascotas</span>
+                                    <span> <i class="fa-solid fa-paw"></i> wifi</span>
+                                </div>
+                    
+                                <h5 class="card-titulo">CABAÑA DEL NORTE</h5>
+                                <p class="card-texto">Te esperamos en este mágico lugar rodeado de bosque, ideal para descansar y
+                                    desconectarte. Las cabañas están ubicadas
+                                    sobre calle Fernández, una calle sin salida, muy tranquila, ideal para descansa.</p>
+                                <a href="#" class="btn btn-primary">Contacto</a>
+                            </div>
                         </div>
                     </div>
 
 
-
-
-                </div>
-
-                <div class="col-md-6 ">
-
-                    <div class="card  h-100" ">
-                                                        <img src=" img/cabania.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <span>4 personas</span>
-                            <span>Mascotas</span>
-                            <h5 class="card-title">Cabaña Del norte</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card’s
-                                content.</p>
-                            <a href="#" class="btn btn-primary">Contacto</a>
+                        <div class="col-md-3 mb-4">
+                        
+                            <div class="card  h-100" ">
+                                                <img src=" img/cabania.jpg" class=" card-img card-img-top" alt="...">
+                                <div class="card-body">
+                                    <div>
+                                        <span> <i class="fa-solid fa-user-group"></i> 4 personas</span>
+                                        <span> <i class="fa-solid fa-paw"></i> Mascotas</span>
+                                        <span> <i class="fa-solid fa-paw"></i> wifi</span>
+                                    </div>
+                        
+                                    <h5 class="card-titulo">CABAÑA DEL NORTE</h5>
+                                    <p class="card-texto">Te esperamos en este mágico lugar rodeado de bosque, ideal para descansar y
+                                        desconectarte. Las cabañas están ubicadas
+                                        sobre calle Fernández, una calle sin salida, muy tranquila, ideal para descansa.</p>
+                                    <a href="#" class="btn btn-primary">Contacto</a>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
 
 
-                <div class="col-md-6 ">
+                            <div class="col-md-3 mb-4">
+                            
+                                <div class="card  h-100" ">
+                                                    <img src=" img/cabania.jpg" class=" card-img card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <div>
+                                            <span> <i class="fa-solid fa-user-group"></i> 4 personas</span>
+                                            <span> <i class="fa-solid fa-paw"></i> Mascotas</span>
+                                            <span> <i class="fa-solid fa-paw"></i> wifi</span>
+                                        </div>
+                            
+                                        <h5 class="card-titulo">CABAÑA DEL NORTE</h5>
+                                        <p class="card-texto">Te esperamos en este mágico lugar rodeado de bosque, ideal para descansar y
+                                            desconectarte. Las cabañas están ubicadas
+                                            sobre calle Fernández, una calle sin salida, muy tranquila, ideal para descansa.</p>
+                                        <a href="#" class="btn btn-primary">Contacto</a>
+                                    </div>
+                                </div>
+                            </div>
 
-                    <div class="card  h-100" ">
-                                                                        <img src=" img/cabania.jpg"
-                        class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <span>4 personas</span>
-                            <span>Mascotas</span>
-                            <h5 class="card-title">Cabaña Del norte</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card’s
-                                content.</p>
-                            <a href="#" class="btn btn-primary">Contacto</a>
-                        </div>
-                    </div>
-                </div>
+
+
 
 
 
@@ -201,61 +220,102 @@
 
     <!-- contacto -->
 
-    <section id="contacto">
-
+    <section id="contacto" class="py-5">
+    
         <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-
-
-                    <div class="caja-formulario">
-                        <h2 class="">Contactenos</h2>
-                        <div class="formulario">
-                            <form action="">
-
-                                <div class="mb-4">
-                                    <label for="">Nombre</label>
-                                    <input type="text" class="form-control" placeholder="Ingrese Nombre">
-                                </div>
-
-                                <div class="mb-4">
-                                    <label for="" class="form-label">Apellido</label>
-                                    <input type="text" class="form-control" placeholder="Ingrese Apellido">
-                                </div>
-
-                                <div class="mb-4">
-                                    <label for="">Emal</label>
-                                    <input type="text" class="form-control" placeholder="Ingrese Emal">
-                                </div>
-
-                                <div class="mb-4">
-                                    <label for="">Mesaje</label>
-                                    <textarea class="form-control" name="" id=""></textarea>
-
-                                </div>
-
-                                <button class="btn btn-success">Enviar</button>
-
-
-
-
-                            </form>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6">
-                    <iframe class="video" src="https://www.youtube.com/embed/NqSPz00cHH0?si=dOGDYrJrAmv-2qzd"
-                        allowfullscreen></iframe>
-                </div>
-
+    
+            <div class="text-center mb-5">
+                <h2>Contactanos</h2>
+                <p>¿Querés consultar disponibilidad? Escribinos y te respondemos.</p>
             </div>
-
+    
+            <div class="row g-4">
+    
+          
+                <div class="col-md-6">
+    
+                    <div class="caja-contacto">
+    
+                        <h3>Hacé tu consulta</h3>
+    
+                        <form>
+    
+                            <div class="row">
+    
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label">Nombre</label>
+                                    <input type="text" class="form-control" placeholder="Tu nombre">
+                                </div>
+    
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label">Apellido</label>
+                                    <input type="text" class="form-control" placeholder="Tu apellido">
+                                </div>
+    
+                            </div>
+    
+                            <div class="mb-3">
+                                <label class="form-label">Email</label>
+                                <input type="email" class="form-control" placeholder="tucorreo@gmail.com">
+                            </div>
+    
+                            <div class="mb-3">
+                                <label class="form-label">Mensaje</label>
+                                <textarea class="form-control" rows="5" placeholder="Escribí tu consulta..."></textarea>
+                            </div>
+    
+                            <button type="submit" class="btn btn-success w-100">
+                                Enviar consulta
+                            </button>
+    
+                        </form>
+    
+                    </div>
+    
+                </div>
+    
+    
+         
+                <div class="col-md-6">
+    
+                    <div class="info-contacto">
+    
+                        <h3>¿Dónde estamos?</h3>
+    
+                        <p>
+                         Valle de Punilla, Córdoba
+                        </p>
+    
+                        <p>
+                         3562 409050
+                        </p>
+    
+                        <p>
+                            ✉️ contacto@cabanasdelmar.com
+                        </p>
+    
+                        <hr>
+    
+                        <h5>Horarios de atención</h5>
+    
+                        <p>
+                            Lunes a Domingo<br>
+                            09:00 - 20:00 hs
+                        </p>
+    
+                        <a href="#" class="btn btn-outline-success">
+                             Consultar por WhatsApp
+                        </a>
+    
+                    </div>
+    
+                </div>
+    
+            </div>
+    
         </div>
-
+    
     </section>
-
 
     <footer>
 
@@ -273,6 +333,7 @@
 
 
     <script src="bibliotecas/bootstrap/js/bootstrap.min.js"> </script>
+    <script src="bibliotecas/fontawesom/fontawesome-free-7.3.1-web/js/all.min.js"></script>
 </body>
 
 </html>
