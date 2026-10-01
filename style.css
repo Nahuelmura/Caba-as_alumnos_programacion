@@ -11,8 +11,7 @@ body {
     overflow: hidden;
 }
 
-.texto-nav
-{
+.texto-nav {
     color: red;
 }
 
@@ -114,6 +113,27 @@ body {
 
 
 
+@media (max-width: 768px) {
+
+#donde {
+        
+        padding: 20px;
+        text-align: center;
+
+    }
+
+        .texto-donde {
+            font-size: 1rem;
+            font-weight: 600;
+    
+            line-height: 1.8;
+            letter-spacing: 0.5px;
+    
+            color: black;
+        }
+
+}
+
 /* cabañas */
 
 #cabania {
@@ -139,34 +159,44 @@ body {
     transform: translateY(10px);
 }
 
-.titulo-cabaña
-{
+.titulo-cabaña {
     padding-bottom: 20px;
     text-shadow: 1px 1px 1px black;
-    }
+}
 
 
-    span{
+
+
+.servicios {
+    display: flex;
+    width: 100%;
+}
+
+.servicios span {
+    width: 33.33%;
+    text-align: center;
     border: solid 1px black;
-    border-radius: 30px;
-    padding: 6px;
-    background-color: #71d199;
-    font-size: 0.7rem;
-    }
+        border-radius: 30px;
+        padding: 6px;
+        background-color: #71d199;
+        font-size: 0.7rem;
+}
 
-    .card-titulo
-    {
-        padding-top: 10px;
-        font-size: 1.2rem;
+.servicios span:hover{
+   background-color: #5c9674;
+}
 
-    }
+.card-titulo {
+    padding-top: 10px;
+    font-size: 1.2rem;
 
-    .card-texto
-    {
-        line-height: 1.8;
-            letter-spacing: 0.5px;
-            font-size: 0.9rem;
-    }
+}
+
+.card-texto {
+    line-height: 1.8;
+    letter-spacing: 0.5px;
+    font-size: 0.9rem;
+}
 
 
 /* contacto */
@@ -202,7 +232,15 @@ footer {
 
 }
 
-.info-contacto
-{
+.info-contacto {
     margin-top: 70px;
 }
+
+/* footer */
+
+.footer-cabanas {
+    background-color: #2b3a2f;
+    color: #f1f5f9;
+}
+
+

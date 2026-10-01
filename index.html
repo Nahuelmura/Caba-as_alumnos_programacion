@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="bibliotecas/aos-master/aos-master/dist/aos.css">
     <link rel="stylesheet" href="bibliotecas/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="bibliotecas/fontawesom/fontawesome-free-7.3.1-web/css/all.min.css">
 </head>
@@ -47,8 +48,10 @@
         <div class="fondo-opaco"></div>
 
         <div class="contenido-inicio">
-            <h1 class="titulo-principal display-3 fw-bold">Cabañas del mar </h1>
-            <h2 class="subtitulo fw-light "> Disfruta del paseo y la naturaleza</h2>
+            <h1 class="titulo-principal display-3 fw-bold" data-aos="fade-up" data-aos-duration="3000">Cabañas del mar </h1>
+    <h2 class="subtitulo fw-light"  data-aos="fade-up" data-aos-duration="3000">
+        Disfruta del paseo y la naturaleza
+    </h2>
             <div>
                 <button class="btn btn-light  btn-lg rounded-pill shadow"> Conoce mas</button>
                 <button class="btn btn-outline-light  btn-lg rounded-pill shadow"> Contacto</button>
@@ -60,12 +63,12 @@
     <!-- donde -->
 
     <section id="donde" class="s">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <!-- columna izquieda -->
                 <div class="col-md-6 g-4">
 
-                    <h2 class="subtitulo"> ¿Donde estamos?</h2>
+                    <h2 class="subtitulo"  > ¿Donde estamos?</h2>
                     <p class="texto-donde"> Nos encontramos en un entorno natural privilegiado, rodeados de paz y
                         tranquilidad, ideales para despejarse de la rutina
                         y conectar con la naturaleza. </p>
@@ -127,10 +130,10 @@
             <div class="row">
                 <div class="col-md-3 ">
 
-                    <div class="card " ">
+                    <div class="card " data-aos="zoom-out">
                         <img src=" img/cabania.jpg" class=" card-img card-img-top" alt="...">
                         <div class="card-body">
-                            <div>
+                            <div class="servicios">
                                 <span> <i class="fa-solid fa-user-group"></i> 4 personas</span>
                                 <span> <i class="fa-solid fa-paw"></i> Mascotas</span>
                                 <span> <i class="fa-solid fa-paw"></i> wifi</span>
@@ -146,10 +149,10 @@
 
                     <div class="col-md-3 mb-4">
                     
-                        <div class="card  h-100" ">
+                        <div class="card  h-100 " data-aos="zoom-out">
                                             <img src=" img/cabania.jpg" class=" card-img card-img-top" alt="...">
                             <div class="card-body">
-                                <div>
+                                <div class="servicios">
                                     <span> <i class="fa-solid fa-user-group"></i> 4 personas</span>
                                     <span> <i class="fa-solid fa-paw"></i> Mascotas</span>
                                     <span> <i class="fa-solid fa-paw"></i> wifi</span>
@@ -167,10 +170,10 @@
 
                         <div class="col-md-3 mb-4">
                         
-                            <div class="card  h-100" ">
+                            <div class="card  h-100" data-aos="zoom-out">
                                                 <img src=" img/cabania.jpg" class=" card-img card-img-top" alt="...">
                                 <div class="card-body">
-                                    <div>
+                                    <div class="servicios">
                                         <span> <i class="fa-solid fa-user-group"></i> 4 personas</span>
                                         <span> <i class="fa-solid fa-paw"></i> Mascotas</span>
                                         <span> <i class="fa-solid fa-paw"></i> wifi</span>
@@ -188,10 +191,10 @@
 
                             <div class="col-md-3 mb-4">
                             
-                                <div class="card  h-100" ">
+                                <div class="card  h-100" data-aos="zoom-out">
                                                     <img src=" img/cabania.jpg" class=" card-img card-img-top" alt="...">
                                     <div class="card-body">
-                                        <div>
+                                        <div class="servicios">
                                             <span> <i class="fa-solid fa-user-group"></i> 4 personas</span>
                                             <span> <i class="fa-solid fa-paw"></i> Mascotas</span>
                                             <span> <i class="fa-solid fa-paw"></i> wifi</span>
@@ -234,7 +237,9 @@
           
                 <div class="col-md-6">
     
-                    <div class="caja-contacto">
+                    <div class="caja-contacto" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="2000">>
     
                         <h3>Hacé tu consulta</h3>
     
@@ -279,30 +284,22 @@
                 <div class="col-md-6">
     
                     <div class="info-contacto">
-    
                         <h3>¿Dónde estamos?</h3>
-    
                         <p>
                          Valle de Punilla, Córdoba
                         </p>
-    
                         <p>
                          3562 409050
                         </p>
-    
                         <p>
-                            ✉️ contacto@cabanasdelmar.com
+                             contacto@cabanasdelmar.com
                         </p>
-    
                         <hr>
-    
                         <h5>Horarios de atención</h5>
-    
                         <p>
                             Lunes a Domingo<br>
                             09:00 - 20:00 hs
                         </p>
-    
                         <a href="#" class="btn btn-outline-success">
                              Consultar por WhatsApp
                         </a>
@@ -316,17 +313,39 @@
         </div>
     
     </section>
+<footer class="footer-cabanas py-5 text-white">
+    <div class="container">
+        <div class="row g-4 justify-content-between">
 
-    <footer>
+            <!-- Columna 1: Marca y descripción -->
+            <div class="col-12 col-md-4" data-aos="fade-up" data-aos-duration="800">
+                <h3 class="h4 fw-bold mb-3">Cabañas del mar</h3>
+                <p class="text-light">
+                    Un espacio pensado para desconectar del ruido y conectar con la naturaleza. Confort, tranquilidad y
+                    las mejores vistas en cada rincón.
+                </p>
+            </div>
 
-        <p>© 2023 Mi Sitio Web</p>
-        <ul>
-            <li><a href="#inicio">Inicio</a></li>
-            <li><a href="/contacto">¿Donde estamos?</a></li>
-            <li><a href="/privacidad">cabañas</a></li>
-            <li><a href="/privacidad">Contacto</a></li>
-        </ul>
-    </footer>
+    
+            <div class="col-12 col-md-3" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
+                <h4 class="h5 fw-semibold mb-3">Seguinos</h4>
+                <div class="d-flex gap-2 mb-3">
+                    <a href="#" class="btn btn-outline-light btn-sm" aria-label="Instagram">Instagram</a>
+                    <a href="#" class="btn btn-outline-light btn-sm" aria-label="Facebook">Facebook</a>
+                </div>
+                <a href="https://wa.me/5493562123456" target="_blank" class="btn btn-success w-100 ">
+                    Consultar por WhatsApp
+                </a>
+            </div>
+
+        </div>
+
+        <hr class="my-4 ">
+
+      
+
+    </div>
+</footer>
 
 
 
@@ -334,6 +353,10 @@
 
     <script src="bibliotecas/bootstrap/js/bootstrap.min.js"> </script>
     <script src="bibliotecas/fontawesom/fontawesome-free-7.3.1-web/js/all.min.js"></script>
+    <script src="bibliotecas/aos-master/aos-master/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
